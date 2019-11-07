@@ -1,0 +1,39 @@
+/* Start navbar section */
+
+.navbar {
+    background:transparent;
+    border:none;
+    padding-top:10px;
+    .navbar-header {
+        .navbar-brand  {
+            width: 200px;
+            height: auto;
+            padding: 0;
+            img {
+                width: 100px;
+                margin: 0 auto 10px;
+                border-radius: 10px;
+                @media #{$mobile_screen} {
+                    margin-left:10px;
+                    width:70px;
+                }
+            }
+        }
+    }
+    .navbar-collapse {
+        .navbar-nav {
+            padding-top: 5px;
+            padding-right:20px;
+            li {
+                a {
+                    color:#fff;
+                    font-size: 20px;
+                    &:hover, &:focus {
+                        color:$main-color;
+                    }
+                }
+            }
+        }
+    }
+}
+/* end navbar section */

@@ -1,0 +1,29 @@
+/* Start Form Contact */
+
+.hire-up {
+    padding:30px 0;
+    h2 {
+        margin:0 0 20px 0;
+    }
+    form {
+        width:80%;
+        margin:auto;
+        input {
+            border-radius: 30px;
+            margin-bottom: 20px;
+            padding:15px
+        }
+        input[type="submit"] {
+            width: 190px;
+            padding: 15px;
+            border: none;
+            background:$main-color;
+            color:#fff;
+        }
+        textarea {
+            margin-bottom:20px;
+        }
+    }
+}
+
+/* End Form Contact */
