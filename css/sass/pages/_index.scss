@@ -2,10 +2,11 @@
 
 .spinner-box {
     position: fixed;
+    top:0;
     width: 100%;
     height: 100%;
     background: $sub-color;
-    z-index: 9999;
+    z-index: 99999;
     .spinner {
         width: 60px;
         height: 60px;   
@@ -140,7 +141,7 @@ header {
     .about-content {
         .about-img {
             overflow: hidden;
-            margin-bottom:30px;
+            margin-top: 30px;
             img {
                 max-width: 70%;
                 margin: -27px auto;
@@ -213,6 +214,7 @@ header {
         .show-more {
             border-radius: 5px;
             margin-top:70px;
+            margin-bottom:30px;
         }
     }
 

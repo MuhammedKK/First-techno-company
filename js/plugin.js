@@ -1,3 +1,11 @@
+// Fade Out Lodaing Page When Page Downloaded
+
+window.onload = function() {
+    $('.spinner-box .spinner').fadeOut(500, function() {
+        $(this).parent().fadeOut(600);
+    });
+}
+
 $(function () {
 
     $(window).resize(function() {
@@ -16,7 +24,7 @@ $(function () {
 
     // Full Image Plugin
     $('fullBackground').fullClip({
-        images : ['imgs/1.jpg', 'imgs/2.jpg', 'imgs/3.jpg']
+        images : ['imgs/1-min.jpg', 'imgs/2-min.jpg', 'imgs/3-min.jpg']
     });
 
     // Change Collapse On Focus 
@@ -24,7 +32,7 @@ $(function () {
     $('.navbar-toggle').on('click', function () {
         let n = 0;
         if( n === 0 ) {
-            $('.navbar-collapse').css('background', '#333');
+            $('.navbar-collapse').css('background', '#2c3e50');
             n++;
         } else {
             $('.navbar-collapse').css('background', 'transparent');
@@ -89,12 +97,6 @@ $(function () {
         }
     });
 
-    // Fade Out Lodaing Page When Page Downloaded
 
-    window.onload = function() {
-        $('.spinner-box .spinner').fadeOut(500, function() {
-            $(this).parent().fadeOut(600);
-        });
-    }
     
 });

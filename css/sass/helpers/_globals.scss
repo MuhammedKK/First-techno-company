@@ -16,6 +16,7 @@ body {
 .middle-line{
     position: relative;
     margin-bottom:40px;
+    color:$main-color;
     &:before {
         content:'';
         position: absolute;
